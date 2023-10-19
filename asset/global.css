@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-family: "Roboto";
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+:root {
+  --colour-logo-primary: #37447e;
+  --colour-opacity-000: #ffffff00;
+  --colour-main-blue-400: #6f7cb2;
+  --colour-main-blue-500: #505f98;
+  --colour-main-blue-800: #111b47;
+  --colour-main-blue-900: #091133;
+  --colour-main-grey-600: #5d6970;
+  --colour-secondary-white-100-general: #fff;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 163.12px;
+}
+
+.nav-con {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  margin-left: calc(165px - 163.12px);
+}
+
+.nav-con .menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 245px;
+  height: 24px;
+}
+
+.nav-con a,
+.logo a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.nav-con .menu a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--colour-main-blue-500);
+}
+
+.logo a {
+  position: absolute;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 38px;
+  color: var(--colour-logo-primary);
+  top: 12px;
+  left: 681px;
+}
+
+.nav-con button {
+  width: 160px;
+  height: 26px;
+  border-radius: 2px;
+  background: var(--colour-main-blue-800, #111b47);
+  color: var(--colour-secondary-white-100-general);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-right: calc(165px - 163.12px);
+}
+
