@@ -79,8 +79,7 @@ body {
   margin-right: calc(165px - 163.12px);
 }
 
-.hero-sec,
-.mobile-login-sec {
+.hero-sec {
   height: calc(1110px - 60px);
 }
 
@@ -99,37 +98,46 @@ body {
   top: calc(303px - 60px);
 }
 
-.mobile-login-sec {
+.mobile-login-sec,
+.intro-sec {
   height: 742px;
   display: grid;
-  align-items: center;
-  margin-top: -1px;
+  /* align-items: center; */
 }
 
-.mobile-login-con {
+.intro-sec {
+  height: 569px;
+}
+
+.mobile-login-con,
+.intro-con {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.intro-info {
+  width: 445px;
+}
+
 .mobile-login-info {
-  width: 539.374px;
+  width: 540px;
 }
 
 .head {
   font-size: 50px;
   font-weight: 500;
   line-height: 66px;
-  letter-spacing: 0.9px;
+  letter-spacing: 1px;
   color: var(--colour-main-blue-900);
 }
 
-.mobile-login-info .head {
+.mobile-login-info .head,
+.intro-info .head {
   font-size: 36px;
   line-height: 48px;
   letter-spacing: 0.1px;
   margin-left: 2px;
-  letter-spacing: -0.1px;
 }
 
 .detail p {
@@ -138,7 +146,7 @@ body {
   font-weight: 400;
   line-height: 30px;
   margin-top: 20px;
-  letter-spacing: -0.1px;
+  letter-spacing: 0.06px;
 }
 
 .detail p:not(:first-child) {
@@ -170,17 +178,20 @@ body {
   text-align: center;
 }
 
-.mobile-login-info .detail p {
+.mobile-login-info .detail p,
+.intro-info .detail p {
   color: var(--colour-main-blue-400);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: -0.1px;
+  letter-spacing: 0.1px;
   margin-top: 16px;
   margin-left: 2px;
 }
 
-.mobile-login-info .detail p:not(:first-child) {
+.mobile-login-info .detail p:not(:first-child),
+.intro-info .detail p:not(:first-child) {
+  letter-spacing: 0.1px;
   margin-top: 10.5px;
 }
 
@@ -218,10 +229,29 @@ body {
   line-height: 18px;
   margin-top: 6px;
   margin-left: 2px;
-  letter-spacing: 0.25px;
+  letter-spacing: -0.04px;
 }
 
 .mobile-login-img {
-  margin-right: 2px;
-  margin-top: 2px;
+  margin-right: 1.45px;
+  margin-top: 6px;
+}
+
+.intro-con {
+  margin-right: 6px;
+}
+
+.intro-img {
+  margin-top: -3px;
+  margin-left: 29px;
+}
+
+.intro-info .head {
+  margin-left: auto;
+  margin-top: 6px;
+  letter-spacing: -0.01px;
+}
+
+.intro-info .detail p {
+  margin-left: auto;
 }
