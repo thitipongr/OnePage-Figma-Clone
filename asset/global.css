@@ -11,10 +11,12 @@
 :root {
   --colour-logo-primary: #37447e;
   --colour-opacity-000: #ffffff00;
+  --colour-main-blue-100: #e7ecff;
   --colour-main-blue-400: #6f7cb2;
   --colour-main-blue-500: #505f98;
   --colour-main-blue-800: #111b47;
   --colour-main-blue-900: #091133;
+  --colour-main-grey-400: #939ea4;
   --colour-main-grey-600: #5d6970;
   --colour-secondary-white-100-general: #fff;
 }
@@ -68,7 +70,8 @@ body {
   left: 681px;
 }
 
-.nav-con button {
+.nav-con button,
+.footer-con button {
   width: 160px;
   height: 26px;
   border-radius: 2px;
@@ -334,4 +337,47 @@ body {
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
+}
+
+.bottom {
+  position: relative;
+  top: 49px;
+  margin-left: -1px;
+}
+
+footer {
+  background-color: var(--colour-main-blue-100);
+}
+
+.footer-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #cdd1d4;
+  padding-top: 67px;
+  padding-bottom: 46px;
+}
+
+.footer-con .credit {
+  color: var(--colour-main-grey-400);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 2px;
+  letter-spacing: -0.1px;
+}
+
+.footer-con button {
+  width: 109px;
+}
+
+footer nav {
+  margin-top: 2px;
+}
+
+.contact-box {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  margin-right: 2px;
 }
