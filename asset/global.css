@@ -50,7 +50,8 @@ body {
   font-style: normal;
 }
 
-.nav-con .menu a {
+.nav-con .menu a,
+.price-btn p {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -133,7 +134,8 @@ body {
 }
 
 .mobile-login-info .head,
-.intro-info .head {
+.intro-info .head,
+.price-info .head {
   font-size: 36px;
   line-height: 48px;
   letter-spacing: 0.1px;
@@ -153,7 +155,8 @@ body {
   margin-top: 14px;
 }
 
-.hero-info button {
+.hero-info button,
+.price-btn button {
   width: 189px;
   height: 36px;
   margin-top: 69px;
@@ -179,7 +182,9 @@ body {
 }
 
 .mobile-login-info .detail p,
-.intro-info .detail p {
+.intro-info .detail p,
+.price-info .detail p,
+.price-num .detail p {
   color: var(--colour-main-blue-400);
   font-size: 16px;
   font-weight: 400;
@@ -276,6 +281,54 @@ body {
   height: 32px;
   flex-shrink: 0;
   border-radius: 2px;
+  background: var(--colour-main-blue-800);
+  color: var(--colour-secondary-white-100-general);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.price-sec {
+  margin-top: 47px;
+  background-image: url(img/Rectangle.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 806px;
+}
+
+.price-con {
+  text-align: center;
+  width: 600px;
+}
+
+.price-info .head {
+  margin-top: 65px;
+  margin-left: auto;
+  letter-spacing: -0.1px;
+}
+
+.price-num {
+  margin-top: 35px;
+}
+
+.price-num .detail p {
+  margin-top: 0px;
+}
+
+.price-btn {
+  margin-top: 61px;
+}
+
+.price-btn p {
+  color: var(--colour-main-grey-600);
+  letter-spacing: 0.2px;
+}
+
+.price-btn button {
+  height: 32px;
+  margin-top: 9px;
+  margin-right: 1px;
   background: var(--colour-main-blue-800);
   color: var(--colour-secondary-white-100-general);
   font-size: 14px;
