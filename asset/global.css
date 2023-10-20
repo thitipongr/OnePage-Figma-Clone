@@ -102,7 +102,7 @@ body {
 .intro-sec {
   height: 742px;
   display: grid;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .intro-sec {
@@ -254,4 +254,9 @@ body {
 
 .intro-info .detail p {
   margin-left: auto;
+}
+
+.intro-img-2{
+  margin-left: -2px;
+  margin-top: 5px;
 }
