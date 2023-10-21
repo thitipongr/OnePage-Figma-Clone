@@ -13,22 +13,17 @@
     />
   </head>
   <body>
-    <!-- <img
+    <img
       src="Landing Page - 2.jpg"
-      style="
-        position: absolute;
-        z-index: -2;
-        opacity: 0.5;
-        /* margin-top: -239px */
-      "
-    /> -->
+      style="position: absolute; z-index: -2; opacity: 0.5; margin-top: -60px"
+    />
     <header>
       <nav>
         <div class="logo">
-          <a href="#">Landing</a>
+          <a href="#" onclick="expandNav()">Landing</a>
         </div>
         <div class="container">
-          <div class="nav-con">
+          <div class="nav-con" id="nav-con">
             <ul class="menu">
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
@@ -267,3 +262,25 @@
     </footer>
   </body>
 </html>
+<script>
+  const header = document.querySelector("header");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 1) {
+      header.classList.add("scrolled");
+    } else {
+      header.classList.remove("scrolled");
+    }
+  });
+
+  const expandNav = () => {
+    const navMenu = document.getElementById("nav-con");
+    if (navMenu.className === "nav-con") {
+      navMenu.className += " display-menu";
+      header.classList.add("click-logo");
+    } else {
+      navMenu.className = "nav-con";
+      header.classList.remove("click-logo");
+    }
+  };
+</script>
