@@ -1,0 +1,198 @@
+@media (min-width: 320px) {
+  header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .scrolled {
+    background-color: #fff;
+  }
+
+  .click-logo {
+    background-color: #fff;
+  }
+
+  main {
+    margin-top: 60px;
+  }
+
+  .nav-con {
+    display: none;
+  }
+
+  .display-menu {
+    display: flex;
+    border-top: 1px solid var(--colour-main-blue-900);
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-con a,
+  .logo a {
+    text-decoration: none;
+    font-style: normal;
+    color: var(--colour-main-blue-500);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+
+  .nav-con .menu {
+    list-style: none;
+  }
+
+  .logo a {
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 38px;
+    color: var(--colour-logo-primary);
+    height: 60px;
+    position: relative;
+  }
+
+  .nav-con button,
+  .footer-con button {
+    width: 80%;
+    height: 35px;
+    border-radius: 2px;
+    background: var(--colour-main-blue-800, #111b47);
+    color: var(--colour-secondary-white-100-general);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-right: calc(165px - 163.12px);
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  section:first-child {
+    margin-top: -60px;
+  }
+
+  section {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .hero-img img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    height: 100vh;
+    opacity: 0.2;
+    object-fit: none;
+  }
+
+  .hero-info {
+    position: relative;
+    width: 77.3458333vw;
+    /* height: 421px; */
+    flex-shrink: 0;
+    /* top: 25vh */
+  }
+
+  .head {
+    font-size: 25px;
+    font-weight: 500;
+    /* line-height: 66px; */
+    letter-spacing: 1px;
+    color: var(--colour-main-blue-900);
+  }
+
+  .mobile-login-info .head,
+  .intro-info .head,
+  .price-info .head {
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.1px;
+    margin-left: 2px;
+  }
+
+  .detail p {
+    color: var(--colour-main-blue-500);
+    font-size: 18px;
+    font-weight: 400;
+    /* line-height: 30px; */
+    margin-top: 20px;
+    letter-spacing: 0.06px;
+  }
+
+  .detail p:not(:first-child) {
+    margin-top: 14px;
+  }
+  .hero-info button,
+  .price-btn button {
+    width: 189px;
+    height: 36px;
+    margin-right: 26px;
+  }
+
+  .hero-info button:nth-child(1) {
+    border-radius: 2px;
+    background: var(--colour-main-blue-800);
+    color: var(--colour-secondary-white-100-general);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 69px;
+    margin-bottom: 26px;
+  }
+
+  .hero-info button:nth-child(2) {
+    border-radius: 2px;
+    border: 2px solid var(--colour-main-blue-900);
+    background: var(--colour-opacity-000);
+    color: var(--colour-main-blue-900);
+    text-align: center;
+  }
+
+  .mobile-login-img {
+    position: absolute;
+    opacity: 0.2;
+    left: 50%;
+  }
+
+  .mobile-login-img img {
+    position: relative;
+    width: 80vw;
+    left: -50%;
+  }
+
+  .hero-info button:nth-child(2),
+  .mini-card-item .head {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+
+  .mobile-login-con,
+  .intro-con {
+    display: flex;
+    align-items: center;
+  }
+
+  .mobile-login-info {
+    /* width: 540px; */
+    width: 80vw;
+  }
+
+  .mini-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  .mini-card-item {
+    width: 80vw;
+    margin-bottom: 25px;
+  }
+}
