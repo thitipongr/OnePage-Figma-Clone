@@ -272,4 +272,57 @@
     top: 49px;
     margin-left: -1px;
   }
+
+  footer {
+    background-color: var(--colour-main-blue-100);
+  }
+
+  .footer-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cdd1d4;
+    padding-top: 67px;
+    padding-bottom: 46px;
+  }
+
+  .footer-con .credit {
+    color: var(--colour-main-grey-400);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 2px;
+    letter-spacing: -0.1px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-con button {
+    display: none;
+  }
+
+  footer nav {
+    margin-top: 2px;
+  }
+
+  footer nav .nav-con {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  footer nav .nav-con .menu {
+    display: none;
+  }
+
+  footer nav .nav-con .contact-box{
+    display: flex;
+  }
+
+  .contact-box {
+    display: flex;
+    width: 75vw;
+    justify-content: space-between;
+    margin-right: 2px;
+  }
 }

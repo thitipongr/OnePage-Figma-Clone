@@ -1,7 +1,9 @@
 @media (min-width: 1440px) {
-  body > img {
-    display: flex !important;
-    margin-top: -60px;
+  @media (width: 1440px) {
+    body > img {
+      display: flex !important;
+      margin-top: -60px;
+    }
   }
 
   section:first-child {
@@ -195,42 +197,5 @@
     position: relative;
     top: 49px;
     margin-left: -1px;
-  }
-
-  footer {
-    background-color: var(--colour-main-blue-100);
-  }
-
-  .footer-con {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #cdd1d4;
-    padding-top: 67px;
-    padding-bottom: 46px;
-  }
-
-  .footer-con .credit {
-    color: var(--colour-main-grey-400);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 24px;
-    margin-left: 2px;
-    letter-spacing: -0.1px;
-  }
-
-  .footer-con button {
-    width: 109px;
-  }
-
-  footer nav {
-    margin-top: 2px;
-  }
-
-  .contact-box {
-    display: flex;
-    width: 200px;
-    justify-content: space-between;
-    margin-right: 2px;
   }
 }

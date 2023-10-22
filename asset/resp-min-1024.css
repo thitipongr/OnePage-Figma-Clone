@@ -119,4 +119,29 @@
     /* z-index: -1; */
     opacity: 1;
   }
+
+  .footer-con .credit {
+    width: auto;
+    text-align: unset;
+  }
+
+  .footer-con button {
+    display: block;
+    width: 109px;
+  }
+  footer nav .nav-con {
+    display: flex;
+  }
+
+  footer nav .nav-con .menu {
+    display: flex;
+  }
+
+  footer nav .nav-con .contact-box {
+    display: flex;
+  }
+
+  .contact-box {
+    width: 200px;
+  }
 }
