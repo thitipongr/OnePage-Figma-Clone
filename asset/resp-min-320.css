@@ -210,4 +210,17 @@
   .intro-info {
     width: 80vw;
   }
+
+  .cta-btn button {
+    margin-top: 40px;
+    width: 150px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: var(--colour-main-blue-800);
+    color: var(--colour-secondary-white-100-general);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+  }
 }
