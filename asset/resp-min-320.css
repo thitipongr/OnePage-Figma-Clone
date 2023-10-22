@@ -223,4 +223,53 @@
     font-weight: 500;
     line-height: 24px;
   }
+  .price-sec {
+    margin-top: 47px;
+    background-image: url(img/Rectangle.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 806px;
+  }
+
+  .price-con {
+    text-align: center;
+    width: 80vw;
+  }
+
+  .price-info .head {
+    margin-top: 65px;
+    margin-left: auto;
+    letter-spacing: -0.1px;
+  }
+
+  .price-num {
+    margin-top: 35px;
+  }
+
+  .price-btn {
+    margin-top: 61px;
+  }
+
+  .price-btn p {
+    color: var(--colour-main-grey-600);
+    letter-spacing: 0.2px;
+  }
+
+  .price-btn button {
+    height: 32px;
+    margin-top: 9px;
+    margin-right: 1px;
+    background: var(--colour-main-blue-800);
+    color: var(--colour-secondary-white-100-general);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .bottom {
+    position: relative;
+    top: 49px;
+    margin-left: -1px;
+  }
 }

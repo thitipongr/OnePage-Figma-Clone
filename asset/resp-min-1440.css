@@ -184,42 +184,11 @@
   }
 
   .price-con {
-    text-align: center;
     width: 600px;
-  }
-
-  .price-info .head {
-    margin-top: 65px;
-    margin-left: auto;
-    letter-spacing: -0.1px;
-  }
-
-  .price-num {
-    margin-top: 35px;
   }
 
   .price-num .detail p {
     margin-top: 0px;
-  }
-
-  .price-btn {
-    margin-top: 61px;
-  }
-
-  .price-btn p {
-    color: var(--colour-main-grey-600);
-    letter-spacing: 0.2px;
-  }
-
-  .price-btn button {
-    height: 32px;
-    margin-top: 9px;
-    margin-right: 1px;
-    background: var(--colour-main-blue-800);
-    color: var(--colour-secondary-white-100-general);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 24px;
   }
 
   .bottom {
