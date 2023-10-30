@@ -1,6 +1,13 @@
-.item-1 {
-  background-color: red;
-  position: relative;
-  top: 20px;
-  right: 50%;
+@media (width: 1440px) {
+  .item-1 {
+    position: relative;
+    top: 20px;
+    right: 50%;
+  }
+}
+
+@media (width: 412px) {
+  .item-1 {
+    position: static;
+  }
 }
