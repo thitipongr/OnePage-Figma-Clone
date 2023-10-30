@@ -1,0 +1,5 @@
+.item-3 {
+  position: relative;
+  left: 50%;
+  z-index: -1;
+}
