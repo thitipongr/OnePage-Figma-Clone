@@ -1,0 +1,95 @@
+@import "ex-article-1.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bgc-item-1: Blue;
+  --bgc-item-2: Red;
+  --bgc-item-3: Pink;
+  --bgc-item-4: Orange;
+  --bgc-item-5: Yellow;
+  --bgc-item-6: Green;
+  --bgc-item-7: Brown;
+  --bgc-item-8: Turquoise;
+  --bgc-item-9: Purple;
+  --bgc-item-10: Khaki;
+  --bgc-item-11: Indigo;
+  --bgc-item-12: Grey;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, 150px);
+  grid-template-columns: repeat(4, 150px);
+  grid-gap: 1em;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  color: var(--clr-light);
+  font-weight: 900;
+}
+
+.item-1 {
+  background-color: var(--bgc-item-1);
+}
+
+.item-2 {
+  background-color: var(--bgc-item-2);
+}
+
+.item-3 {
+  background-color: var(--bgc-item-3);
+}
+
+.item-4 {
+  background-color: var(--bgc-item-4);
+}
+
+.item-5 {
+  background-color: var(--bgc-item-5);
+}
+
+.item-6 {
+  background-color: var(--bgc-item-6);
+}
+
+.item-7 {
+  background-color: var(--bgc-item-7);
+}
+
+.item-8 {
+  background-color: var(--bgc-item-8);
+}
+
+.item-9 {
+  background-color: var(--bgc-item-9);
+}
+
+.item-10 {
+  background-color: var(--bgc-item-10);
+}
+
+.item-11 {
+  background-color: var(--bgc-item-11);
+}
+
+.item-12 {
+  background-color: var(--bgc-item-12);
+}
