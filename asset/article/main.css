@@ -1,6 +1,7 @@
-@import "ex-article-1.css";
-@import "ex-article-2.css";
-@import "ex-article-3.css";
+/* @import "ex-article-1.css"; */
+/* @import "ex-article-2.css"; */
+/* @import "ex-article-3.css"; */
+@import "ex-article-4.css";
 
 *,
 *::before,
@@ -35,6 +36,8 @@ section {
   grid-template-rows: repeat(3, 150px);
   grid-template-columns: repeat(2, 150px);
   grid-gap: 1em;
+  padding: 50px;
+  border: 2px solid red;
 }
 
 .item {
